@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do aluno</title>
+    <link rel="stylesheet" href="portallogin.css">
+</head>
+<body>
+    <div class="container">
+        <img src="mtech_transparente.png" alt="">
+        </div>
+    
+        <div class="Formulario">
+    
+        </div>
+        <form>
+            <h2>Portal do aluno</h2>
+            <b><label for="nome">Nome:</label></b>
+            <input type="text"id="nome" name="nome"required><br><br>
+            
+            <b><label for="password">Senha:</label></b>
+            <input type="password"id="senha"name="senha"required><br><br>
+    
+            <button>
+                <a href="portaldoaluno.html">
+                    Entrar
+                </a>
+            </button>  
+
+
+        </form>
+        <p id="mensagemErro" style="color: red;"></p>
+
+        <footer>
+            <div class="rodape1">
+                <p class="p1"> Desenvolvido por Luiz </p>
+                <p class="p1"> Endereço Gama-df</p>
+                <p class="p1"> telefone: 77 7777-7777</p>
+            </div>
+        </footer>    
+    
+        <script>
+            function validarFormulario() {
+            const nome = document.getElementById('nome').value;
+            const senha = document.getElementById('senha').value;
+            const mensagemErro = document.getElementById('mensagemErro');
+            mensagemErro.textContent = ''; 
+    
+            if (!nome) {
+            mensagemErro.textContent = 'Por favor, insira seu nome.';
+            return false;
+            }
+    
+            if (!senha || senha.length < 6) {
+            mensagemErro.textContent = 'A senha deve ter pelo menos 6 caracteres.';
+            return false;
+            }
+    
+            alert('Portal acessado com sucesso!');
+            return true;
+            }
+        </script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+body{
+    background-color: rgb(223, 244, 244);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    background-color: rgba(105, 82, 173, 0.727); 
+    padding: 8px;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    padding: 12px;
+}
+
+.img-perfil{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+
+}
+h2{
+    color: azure;
+    margin: auto;
+    padding: 15px;
+}
+ul{
+    text-align: left;
+    list-style: none;
+    padding: 20px;
+}
+.area{
+    background-color: rgb(105, 82, 173, 0.727);
+    margin-right: 80%;
+    width: 180px;
+    position: absolute;
+    height: 100%;;
+}
+a{
+    color: azure;
+    text-decoration: none;
+}
+footer{
+    background-color: rgba(105, 82, 173, 0.7278);
+    color: rgb(255, 255, 255);
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    left: 180px;
+    width: 100%;
+    font-size: 14px;
+
+}
+.rodape1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-right: 300px;
+}
+h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+label{
+    text-align: center;
+    margin-left: 250px;
+}
+h4{
+    margin-left: 250px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.perfil{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 900px;
+    margin-top: -120px;
+}
+.lf{
+    margin-right: 650px ;    
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+}
+button{
+    margin-left: 250px;
+    padding: 10px;
+    background-color: azure;
+    border-radius:10px ;
+}
+.noticias{
+    margin-left: 600px;
+    margin-top: -400px;
+    max-width: 500px;
+    max-height: 500px;
+    flex-direction: column;
+    justify-content: left;
+}
+.titulo{
+    max-width: 500px;
+    max-height: 500px;
+}
+.suporte{
+    text-align: center;
+}
+.h2sporte{
+    color: black;
+}
+.biblioteca{
+    text-align: center;
+    color: black;
+ 
+}
+.h2bi{
+    color: black;
+    
+}
+
+.videos{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+iframe{
+    width: 250px;
+    height: 250px;
+}
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+}
+th td{
+    border: 1px solid;
+    padding: 8px;
+}
+th{
+    background-color: rgba(70, 79, 79, 0.724);
+}
+.imgconfig{
+    margin-left:1130px ;
+    width: 100px;
+    margin-top: 20px;
+}
+.h1config{
+    text-align: center;
+    margin-top: -39px;
+}
+tbody tr:nth-child(odd){
+    background-color: #ada4a4;
+}
+.h1doc{
+    text-align: center;
+
+}
+.doc{
+    background-color:rgb(57, 51, 81) ;
+    max-width: 500px;
+    margin-left: 400px;
+}
